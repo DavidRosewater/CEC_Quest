@@ -61,7 +61,7 @@ Regardless of which solver(s) you install, remember to specify which of them to 
 # Workflow
 > **Step 1:**: Homepage. Select the MOER Data Icon to get started. 
 
-> ![Slide1](images/workflow/Slide1.png)
+![Slide1](images/workflow/Slide1.png)
 
 > **Step 2:**: Marginal Operating Emisions Rate (MOER) data download and selection page. 
 
