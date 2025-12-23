@@ -1,0 +1,364 @@
+[
+    {
+        "name": "MOER Data Input File Name",
+        "object name": "openMOERFileInput",
+        "notes": "Marginal operating emissions rate data input for plotting",
+        "default": "something",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Site Name",
+        "object name": "siteNameInput",
+        "notes": "Name of the site",
+        "default": "TestSite101",
+        "type": "string",
+        "max length": 30
+    },
+    {
+        "name": "Latitude",
+        "object name": "latitudeInput",
+        "notes": "Latitude of the site",
+        "default": "0.0",
+        "max": 90,
+        "min": -90,
+        "type": "float"
+    },
+    {
+        "name": "Longitude",
+        "object name": "longitudeInput",
+        "notes": "Longitude of the site",
+        "default": "0.0",
+        "max": 180,
+        "min": -180,
+        "type": "float"
+    },
+    {
+        "name": "Rated AC Power",
+        "object name": "acPowerInput",
+        "notes": "Rated ac power of the solar site",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Rated DC Power",
+        "object name": "dcPowerInput",
+        "notes": "Rated dc power of the solar site",
+        "default": "1.3",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "API Key",
+        "object name": "APIKeyInput",
+        "notes": "Your application programming interface (API) key.",
+        "default": "what is this!",
+        "type": "string",
+        "max length": 40
+    },
+    {
+        "name": "Your Name",
+        "object name": "nameInput",
+        "notes": "Your name, to record who is requesting solar data.",
+        "default": "",
+        "type": "string",
+        "max length": 30
+    },
+    {
+        "name": "Your Affiliation",
+        "object name": "affiliationInput",
+        "notes": "Your affiliation, to record who is requesting solar data.",
+        "default": "",
+        "type": "string",
+        "max length": 40
+    },
+    {
+        "name": "Your Email",
+        "object name": "emailInput",
+        "notes": "Your email, to record who is requesting solar data.",
+        "default": "",
+        "type": "string",
+        "max length": 30
+    },
+    {
+        "name": "Year Start",
+        "object name": "yearStartInput",
+        "notes": "The first year (inclusive) to retrieve solar data for.",
+        "max": 2020,
+        "min": 2014,
+        "default": "2020",
+        "type": "int",
+        "step": 1,
+        "units": "year"
+    },
+    {
+        "name": "Year End",
+        "object name": "yearEndInput",
+        "notes": "The last year (inclusive) to retrieve solar data for.",
+        "max": 2020,
+        "min": 2014,
+        "default": "2020",
+        "type": "int",
+        "step": 1,
+        "units": "year"
+    },
+    {
+        "name": "Solar Resource File",
+        "object name": "openSolarResourceFileInput",
+        "notes": "Relitive path to the solar resource data file.",
+        "default": "Path to solar resource",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Solar Degradation Rate in the First Year",
+        "object name": "solarDegradationInFirstYearInput",
+        "notes": "Input for the Solar Degradation Rate in the First Year.",
+        "max": 100.0,
+        "min": 0.0,
+        "default": "2.0",
+        "type": "float",
+        "units": "%"
+    },
+    {
+        "name": "Solar Degradation Rate Per Year After the First",
+        "object name": "solarDegradationPerYearAferFirstInput",
+        "notes": "Input for the Solar Degradation Rate Per Year After the First",
+        "max": 100.0,
+        "min": 0.0,
+        "default": "0.5",
+        "type": "float",
+        "units": "%"
+    },
+    {
+        "name": "Site Electrical Load File",
+        "object name": "loadFileInput",
+        "notes": "Relitive path to the electrical load data file.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Site Electrical Load File List File",
+        "object name": "saveLoadFileListInput",
+        "notes": "Relitive path to a file containing the list of monthly electrical load data files.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Selected Utility Rate",
+        "object name": "selectedUtilityRateInput",
+        "notes": "Label for the selected utility rate in the OpenEI utility rate database.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Power Import Limit",
+        "object name": "powerImportLimitInput",
+        "notes": "The import power limit from the utility in megawatts",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Rated AC Power",
+        "object name": "powerExportLimitInput",
+        "notes": "The export power limit to the utility in megawatts",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "System Name",
+        "object name": "systemName",
+        "notes": "Input Field for ESS System Name.",
+        "default": "ESS 1",
+        "type": "string",
+        "max length": 100
+    },
+    {
+        "name": "Energy Capacity",
+        "object name": "energyCapacityInput",
+        "notes": "Input Field for ESS System Energy Capacity",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Charge Power Limit",
+        "object name": "chargePowerLimitInput",
+        "notes": "Input Field for ESS System Charge Power Limit",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Discharge Power Limit",
+        "object name": "diachargePowerLimitInput",
+        "notes": "Input Field for ESS System Discharge Power Limit",
+        "default": "1",
+        "max": 9999.99,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Round-Trip-Efficiency",
+        "object name": "roundTripEfficiencyInput",
+        "notes": "Input Field for ESS System Round-Trip-Efficiency",
+        "default": "100",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Self-Dischage Rate",
+        "object name": "selfDischargeRateInput",
+        "notes": "Input Field for ESS System Self-Dischage Rate in % per month",
+        "default": "1",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Model Name",
+        "object name": "essModelNameInput",
+        "notes": "Input Field for ESS Model Name.",
+        "default": "Model",
+        "type": "string",
+        "max length": 40
+    },
+    {
+        "name": "Open Model File Input",
+        "object name": "openESSModelFileInput",
+        "notes": "Input Field for Open Model File Input.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Max SOC input",
+        "object name": "maxSOCLimitInput",
+        "notes": "Input Field for Maximum State of charge.",
+        "default": "100",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Min SOC input",
+        "object name": "minSOCLimitInput",
+        "notes": "Input Field for Minimum State of charge.",
+        "default": "0",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Degradation rate in the first year",
+        "object name": "degradationInFirstYearInput",
+        "notes": "Input field for rate of capacity degredation (%) in the first year.",
+        "default": "0",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Degradation rate after the first year",
+        "object name": "degradationPerYearAferFirstInput",
+        "notes": "Input field for rate of capacity degredation (%) per year after the first year.",
+        "default": "0",
+        "max": 100,
+        "min": 0,
+        "type": "float"
+    },
+    {
+        "name": "Assumed Carbon Weight",
+        "object name": "assumedCarbonWeightInput",
+        "notes": "A price in $/ton of CO2 emissions that the controller uses to dispatch the energy storage systems.",
+        "default": "50.0",
+        "max": 99999.0,
+        "min": 0.0,
+        "type": "float"
+    },
+    {
+        "name": "Net Meter Price",
+        "object name": "netMeterPriceInput",
+        "notes": "A price in $/kWh that the utility will pay customers for net electrical energy production at the end of the yearly true up period.",
+        "default": "0.02",
+        "max": 99999.0,
+        "min": 0.0,
+        "type": "float"
+    },
+    {
+        "name": "Analysis Name",
+        "object name": "analysisNameInput",
+        "notes": "Input Field for what to name the analysis.",
+        "default": "Analysis",
+        "type": "string",
+        "max length": 40
+    },
+    {
+        "name": "Project Life",
+        "object name": "projectLifeInput",
+        "notes": "The projected project life in years.",
+        "max": 40,
+        "min": 1,
+        "default": "20",
+        "type": "int",
+        "step": 1,
+        "units": "years"
+    },
+    {
+        "name": "Discout Rate",
+        "object name": "discountRateInput",
+        "notes": "The rate to discount future financial costs.",
+        "max": 100.0,
+        "min": 0.0,
+        "default": "3.0",
+        "type": "float",
+        "units": "% / year"
+    },
+    {
+        "name": "Results File",
+        "object name": "openResultsFileInput",
+        "notes": "Input Field for opening a results file.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    },
+    {
+        "name": "Day Range Start for Results Plot",
+        "object name": "startDayPlotResultsInput",
+        "notes": "An input that lets the user select the start day of the selected month.",
+        "default": "1",
+        "max": 31,
+        "min": 1,
+        "type": "float"
+    },
+    {
+        "name": "Day Range End for Results Plot",
+        "object name": "endDayPlotResultsInput",
+        "notes": "An input that lets the user select the end day of the selected month.",
+        "default": "31",
+        "max": 31,
+        "min": 1,
+        "type": "float"
+    },
+    {
+        "name": "Results File List",
+        "object name": "openResultsFileListInput",
+        "notes": "Input Field for opening a list of results files for the lifetime analysis.",
+        "default": "",
+        "type": "string",
+        "max length": 200
+    }
+]

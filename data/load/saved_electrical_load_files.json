@@ -1,0 +1,38 @@
+{
+    "January": {
+        "File": "data/load/"
+    },
+    "February": {
+        "File": "data/load/"
+    },
+    "March": {
+        "File": "data/load/"
+    },
+    "April": {
+        "File": "data/load/"
+    },
+    "May": {
+        "File": "data/load/"
+    },
+    "June": {
+        "File": "data/load/"
+    },
+    "July": {
+        "File": "data/load/"
+    },
+    "August": {
+        "File": "data/load/"
+    },
+    "September": {
+        "File": "data/load/"
+    },
+    "October": {
+        "File": "data/load/"
+    },
+    "November": {
+        "File": "data/load/"
+    },
+    "December": {
+        "File": "data/load/"
+    }
+}

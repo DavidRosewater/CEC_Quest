@@ -1,0 +1,13 @@
+pvlib
+PySide6 
+PyQt5
+cx-Freeze 
+datetime
+requests
+pandas 
+matplotlib
+markdown
+pylatex
+pyomo
+jinja2
+bs4

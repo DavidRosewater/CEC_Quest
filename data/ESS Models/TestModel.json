@@ -1,0 +1,41 @@
+{
+    "System 1": {
+        "System Name": "ESS 1",
+        "Energy Capacity": 0.0,
+        "Charge Power Limit": 0.0,
+        "Discharge Power Limit": 0.0,
+        "Round-Trip-Efficiency": 100.0,
+        "Self-Discharge Rate": 1.0,
+        "Max SOC": 61.0,
+        "Min SOC": 0.0,
+        "Dynamic Power Limits": {
+            "Limit 0": {
+                "Region": "Charge",
+                "Slope": 0.0,
+                "Intercept": 100.0
+            }
+        }
+    },
+    "System 2": {
+        "System Name": "ESS System 2",
+        "Energy Capacity": 0.0,
+        "Charge Power Limit": 0.0,
+        "Discharge Power Limit": 0.0,
+        "Round-Trip-Efficiency": 100.0,
+        "Self-Discharge Rate": 0.0,
+        "Max SOC": 100.0,
+        "Min SOC": 0.0,
+        "Dynamic Power Limits": {
+            "Limit 0": {
+                "Region": "Charge",
+                "Slope": 0.0,
+                "Intercept": 0.0
+            },
+            "Limit 1": {
+                "Region": "Charge",
+                "Slope": 0.0,
+                "Intercept": 0.0
+            }
+        }
+    }
+}
