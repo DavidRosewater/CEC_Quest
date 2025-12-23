@@ -65,47 +65,47 @@ Regardless of which solver(s) you install, remember to specify which of them to 
 
 > **Step 2:**: Marginal Operating Emisions Rate (MOER) data download and selection page. 
 
-> ![Slide2](images/workflow/Slide2.png)
+![Slide2](images/workflow/Slide2.PNG)
 
 > **Step 3:**: Energy Storage Model configuration and parameterization page 
 
-> ![Slide1](images/workflow/Slide3.png)
+![Slide1](images/workflow/Slide3.PNG)
 
 > **Step 4:**: Behind-the-Meter analysis page: Configure Solar Resouce Data
 
-> ![Slide1](images/workflow/Slide4.png)
+![Slide1](images/workflow/Slide4.PNG)
 
 > **Step 5:**:Behind-the-Meter analysis page: Configure Utility Rates
 
-> ![Slide1](images/workflow/Slide5.png)
+![Slide1](images/workflow/Slide5.PNG)
 
 > **Step 6:**: Behind-the-Meter analysis page: Configure Site Load and Import/Export Power Limits
 
-> ![Slide1](images/workflow/Slide6.png)
+![Slide1](images/workflow/Slide6.PNG)
 
 > **Step 7:**: Behind-the-Meter analysis page: Review Inputs and Run Analysis
 
-> ![Slide1](images/workflow/Slide7.png)
+![Slide1](images/workflow/Slide7.PNG)
 
 > **Step 8:**: Results: Visuilize Analysis Progress
 
-> ![Slide1](images/workflow/Slide9.png)
+![Slide1](images/workflow/Slide9.PNG)
 
 > **Step 9:**: Results: Lifetime Analysis
 
-> ![Results: Lifetime Analysis](images/workflow/Slide10.png)
+![Results: Lifetime Analysis](images/workflow/Slide10.PNG)
 
 > **Energy Market Analysis:**: [RESERVED FOR FUTURE VERSIONS]
 
-> ![Slide8](images/workflow/Slide8.png)
+![Slide8](images/workflow/Slide8.PNG)
 
 > **About**: About Page
 
-> ![Slide11](images/workflow/Slide11.png)
+![Slide11](images/workflow/Slide11.PNG)
 
 > **Adisional Features**: Adisional Features
 
-> ![Slide12](images/workflow/Slide12.png)
+![Slide12](images/workflow/Slide12.PNG)
 
 
 # Project Files And Folders
